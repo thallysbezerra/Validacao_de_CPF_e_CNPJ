@@ -1,0 +1,14 @@
+.resultadoValidacao {
+    font-weight: bold;
+    position: absolute;
+    right: 0;
+    text-transform: uppercase;
+    top: 12px;
+}
+
+.resultadoValidacao.alert {
+    color: #d64541;
+}
+.resultadoValidacao.success {
+    color: #99ca3c;
+}

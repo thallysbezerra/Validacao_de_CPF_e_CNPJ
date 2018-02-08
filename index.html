@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <!-- Materialize CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+
+    <link rel="stylesheet" href="css/style.css">
+    
+    <!-- jQuery -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    
+    <!-- jQuery Mask Plugin -->
+    <script src="https://cdn.jsdelivr.net/jquery.mask/1.14.10/jquery.mask.min.js"></script>
+    
+    <!-- Materialize JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+
+</head>
+
+<body class="container">
+        <div class="input-field">
+            <input type="text" class="cpf-cnpj" maxlength="14">
+            <label for="last_name">Digite o CPF ou CNPJ</label>
+            <div class="resultadoValidacao"></div> 
+        </div>
+        <a class="waves-effect waves-light btn right executaValidacao">Validar</a>
+</body>
+
+<!-- Validação e resultado de CPF ou CNPJ -->
+<script src="js/scripts.js"></script>     
+
+</html>
