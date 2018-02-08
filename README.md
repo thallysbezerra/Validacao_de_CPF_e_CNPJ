@@ -1,5 +1,5 @@
 # Validação de CPF e CNPJ
-Validação de CPF e CNPJ em mesmo campo.
+Validação de CPF e CNPJ em mesmo campo, retornando resultado no próprio HTML.
 
 Tecnologias utilizadas
 
